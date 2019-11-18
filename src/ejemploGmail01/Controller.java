@@ -9,6 +9,9 @@ import javafx.scene.control.Button;
 import java.net.URL;
 import java.util.ResourceBundle;
 
+//para enviar email añadir la librería javax.mail.jar previamente descargada.
+// En intellij File->Project Structure->Libraries-> +
+
 public class Controller implements Initializable {
     @FXML
     Button id_btn_enviarSSL;
